@@ -19,7 +19,14 @@
 	!padding-left: 500px;
 }
 
-.computer {
+#screen-off {
+	position: absolute;
+    	height: 450px; 
+
+	left: 500px;
+	top: -100px;
+}
+#screen-on {
 	position: absolute;
     	height: 450px; 
 
@@ -37,15 +44,44 @@
 
 }
 
-#lisa-artwork img:last-child {
+
+#fingerprint {
+
+	position: absolute;
+	height: 150px;
+
+	left: 1050px;
+	top: 250px;
+
+	transform: rotate(26.5deg);
+
+}
+
+#lisa-artwork img#screen-on {
 	display: none;  
 }
-#lisa-artwork:hover img:last-child {
+#lisa-artwork:hover img#screen-on {
  	display: inline;  
 }
-#lisa-artwork:hover img:first-child {
+#lisa-artwork:hover img#screen-off {
 	display: none;  
 }
+
+#fingerprint-container { 
+
+	opacity: 0%;
+	transition: all 1s ease;
+
+}
+
+#lisa-artwork:hover + #fingerprint-container { 
+
+	opacity: 100%;
+	transition: all 5s ease;
+
+}
+
+
 
 p {
 
