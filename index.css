@@ -1,9 +1,25 @@
 
 #intro-content {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
-  background-color: gold;
-  height:1000px;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	background-color: gold;
+	height:1000px;
 }
 
+#logo {
+	color: red;
+    	font-family: BLOCKS;
+    	font-size: 150px;
+	padding-left:5.5%;
+
+}
+
+a {
+	color: red;
+}
+
+@font-face {
+    	font-family: BLOCKS;
+    	src: url(fonts/BLOCKS-ONBLOCKS.otf);
+}
 
