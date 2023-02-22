@@ -1,0 +1,87 @@
+
+#resume-content {
+  position: relative;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  background-color: gold;
+  Height: 2200px;
+  padding:50px;
+}
+
+.section {
+    	position: relative;
+    	color: red;
+    	font-family: DTDumplingDisplay;
+    	font-size: 45px;
+    	width: 50%;
+    	height: 55px;
+    	top: -15px;
+    	left: 25px;
+    	border-bottom: .15em solid red;
+    	Margin-bottom: 0.5em;
+
+}
+
+.content {
+    	color: red;
+    	font-family: helvetica;
+    	position: relative;
+    	top: -15px;
+    	left: 25px;
+    	width: 50%;
+}
+
+.content p {
+    	margin: 0em;
+}
+
+.content .sub-title {
+    	font-weight: bold;
+    	font-size: 24px;
+
+
+}
+
+.content .sub-content {
+    	font-style: italic;
+    	font-size: 20px;
+
+
+}
+
+
+#logo {
+    	color: red;
+    	font-family: BLOCKS;
+    	font-size: 150px;
+    	height: auto;
+    	width: auto; 
+    	max-width: 500px; 
+    	max-height: 500px;
+    	position: relative;
+    	top: -15px;
+    	left: 75px
+
+}
+
+
+@font-face {
+    	font-family: DTDumplingDisplay;
+    	src: url(./fonts/DTDumplingDisplay-Regular.otf);
+}
+
+
+@font-face {
+    	font-family: BLOCKS;
+    	src: url(./fonts/BLOCKS-ONBLOCKS.otf);
+}
+
+
+a {
+
+   	color: red
+
+}
+
+
+
