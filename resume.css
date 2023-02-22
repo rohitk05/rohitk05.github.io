@@ -1,11 +1,19 @@
+#logo {
+	color: red;
+    	font-family: BLOCKS;
+    	font-size: 150px;
+	padding-left:5.5%;
+
+}
+
 
 #resume-content {
-  position: relative;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
-  background-color: gold;
-  Height: 2200px;
-  padding:50px;
+	position: relative;
+  	margin-left: 5.5%;
+  	margin-right: 5.5%;
+  	background-color: gold;
+  	height: 2200px;
+  	padding:50px;
 }
 
 .section {
@@ -49,21 +57,12 @@
 
 }
 
-
-#logo {
-    	color: red;
-    	font-family: BLOCKS;
-    	font-size: 150px;
-    	height: auto;
-    	width: auto; 
-    	max-width: 500px; 
-    	max-height: 500px;
-    	position: relative;
-    	top: -15px;
-    	left: 75px
+.content .list-content {
+    	font-style: italic;
+    	font-size: 20px;
+    	margin-bottom: 0.5em;
 
 }
-
 
 @font-face {
     	font-family: DTDumplingDisplay;
@@ -81,6 +80,12 @@ a {
 
    	color: red
 
+}
+
+ul {
+  	list-style-type: square;
+  	list-style-position: inside;
+  	padding-left: 0;
 }
 
 
