@@ -6,14 +6,49 @@
 
 }
 
-
 #resume-content {
 	position: relative;
   	margin-left: 5.5%;
   	margin-right: 5.5%;
   	background-color: gold;
-  	height: 2200px;
+  	height: 2100px;
   	padding:50px;
+}
+
+#artwork {
+
+	position: relative;
+
+}
+
+#cables {
+
+   	position: absolute;
+	height: 1700px;
+
+	left: 800px;
+	top: -50px;
+
+}
+
+#computer {
+
+   	position: absolute;
+   	top: 1500px;
+   	right: 25px;
+   	height: 447px;
+
+}
+
+#glitch-screen {
+
+   	position: absolute;
+   	top: 1746px;
+   	right: 217px;
+   	width: 139px;
+   	height: 112px;
+   	transform: rotate(66.5deg);
+
 }
 
 .section {
@@ -26,7 +61,7 @@
     	top: -15px;
     	left: 25px;
     	border-bottom: .15em solid red;
-    	Margin-bottom: 0.5em;
+    	margin-bottom: 0.5em;
 
 }
 
@@ -87,6 +122,4 @@ ul {
   	list-style-position: inside;
   	padding-left: 0;
 }
-
-
 
