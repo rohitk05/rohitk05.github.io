@@ -4,19 +4,33 @@
 	margin-right: 5.5%;
 	background-color: gold;
 	height:500px;
-
-	color: red;
-  	font-family: DTDumplingDisplay;
-	font-size: 60px;
-	letter-spacing: .15em;
 	
 	padding: 50px;
 
 }
 
+#intro-text {
+
+	margin-right: 15%;
+
+}
+
+.text {
+
+	color: red;
+  	font-family: DTDumplingDisplay;
+	font-size: 60px;
+
+	overflow: hidden;
+  	border-right: .15em solid red;
+  	white-space: nowrap;
+  	margin: 0;
+  	letter-spacing: .15em;
+
+}
+
 #lisa-artwork {
 	position: relative;
-	!padding-left: 500px;
 }
 
 #screen-off {
@@ -82,7 +96,6 @@
 }
 
 
-
 p {
 
 	margin: 0;
@@ -96,6 +109,100 @@ p {
 	padding-left:5.5%;
 
 }
+
+
+#intro-text p:nth-child(1) {
+	opacity: 0;
+	animation:
+	typing-line1 3.5s steps(30, end) forwards,
+    	cursor .5s step-end infinite;
+}
+#intro-text p:nth-child(2) {
+  	opacity: 0;
+  	animation: 
+   	typing-line2 3.5s steps(30, end) forwards,
+    	cursor .5s step-end infinite;
+  	animation-delay: 3.7s;
+}
+#intro-text p:nth-child(3) {
+  	opacity: 0;
+  	animation: 
+    	typing-line3 3.5s steps(30, end) forwards,
+    	cursor .5s step-end infinite;
+  	animation-delay: 7.4s;
+}
+#intro-text p:nth-child(4) {
+  	opacity: 0;
+  	animation: 
+    	typing-end 2.5s steps(30, end) forwards,
+    	cursor .5s step-end infinite;
+  	animation-delay: 11s;
+}
+
+@keyframes typing-line1 {
+  	1% {
+    		opacity: 1;
+  	}
+  	from { width: 0 }
+  	to { width: 950px }
+  	99.9% {
+    		border-right: .15em solid red;
+  	}
+  	100% {
+    		opacity: 1;
+    		border: none;
+  	}
+}
+@keyframes typing-line2 {
+  	1% {
+    		opacity: 1;
+  	}
+  	from { width: 0 }
+  	to { width: 850px }
+  	99.9% {
+    		border-right: .15em solid red;
+  	}
+  	100% {
+    		opacity: 1;
+    		border: none;
+  	}
+}
+@keyframes typing-line3 {
+  	1% {
+    		opacity: 1;
+  	}
+  	from { width: 0 }
+  	to { width: 750px }
+  	99.9% {
+    		border-right: .15em solid red;
+  	}
+  	100% {
+    		opacity: 1;
+    		border: none;
+  	}
+}
+
+@keyframes typing-end {
+  	1% {
+    		opacity: 1;
+  	}
+  	from { width: 0 }
+  	to { width: 500px }
+  	99.9% {
+    		border-right: .15em solid red;
+  	}
+  	100% {
+    		opacity: 1;
+  	}
+}
+
+/* The typewriter cursor effect */
+@keyframes cursor{
+  	from, to { border-color: transparent }
+  	50% { border-color: red }
+}
+
+
 
 .white {
 
