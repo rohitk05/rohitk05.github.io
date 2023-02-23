@@ -115,21 +115,21 @@
 #intro-text p:nth-child(2) {
   	opacity: 0;
   	animation: 
-   	typing-line2 3.5s steps(30, end) forwards,
+   	typing-line2 3.5s steps(29, end) forwards,
     	cursor .5s step-end infinite;
   	animation-delay: 3.7s;
 }
 #intro-text p:nth-child(3) {
   	opacity: 0;
   	animation: 
-    	typing-line3 3.5s steps(30, end) forwards,
+    	typing-line3 3.5s steps(29, end) forwards,
     	cursor .5s step-end infinite;
   	animation-delay: 7.4s;
 }
 #intro-text p:nth-child(4) {
   	opacity: 0;
   	animation: 
-    	typing-end 2.5s steps(30, end) forwards,
+    	typing-end 2.5s steps(29, end) forwards,
     	cursor .5s step-end infinite;
   	animation-delay: 11s;
 }
